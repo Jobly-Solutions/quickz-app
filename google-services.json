@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "488136935113",
+    "project_id": "quickz-app-e969c",
+    "storage_bucket": "quickz-app-e969c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488136935113:android:ab73715f0c0822fef8af18",
+        "android_client_info": {
+          "package_name": "com.quickz.market"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488136935113-001jc55lao76ghr0fhogespv610q0no8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOF5-WZsSH8npFEDKUxyM9O-Yw-0DBZGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488136935113-001jc55lao76ghr0fhogespv610q0no8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

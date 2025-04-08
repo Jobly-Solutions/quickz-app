@@ -1,0 +1,1 @@
+export const IMAGE_LM_LOGO = require('./lm-logo.png');

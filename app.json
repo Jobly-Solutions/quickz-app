@@ -1,0 +1,90 @@
+{
+  "expo": {
+    "name": "Quickz",
+    "slug": "supermarket",
+    "scheme": "quickz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icono.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#4273BC"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.quickz.market"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.quickz.market",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icono.png",
+        "backgroundColor": "#5190EE"
+      },
+      "versionCode": 2,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA3BItB2HFjOAph2nir_Et1cUZ8qHEySlo"
+        }
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "quickz",
+              "host": "mp-checkout-pro",
+              "pathPrefix": "/success"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/icono.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3c177219-3842-4fc2-9bc8-960be2c623c1"
+      }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      "expo-secure-store",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}
